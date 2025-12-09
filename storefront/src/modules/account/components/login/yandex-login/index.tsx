@@ -9,7 +9,7 @@ export default function YandexLogin() {
       const origin = window.location.origin
       const parts = window.location.pathname.split("/").filter(Boolean)
       const country = parts[0] || "ru"
-      callback_url = `${origin}/${country}/auth/yandex/callback`
+      callback_url = `${origin}/auth/yandex/callback`
     }
     const result = await sdk.auth.login("customer", "yandex", { callback_url })
     if (typeof result === "object" && (result as any).location) {
