@@ -1,0 +1,9 @@
+# Backend Yandex OAuth
+YANDEX_CLIENT_ID=
+YANDEX_CLIENT_SECRET=
+YANDEX_CALLBACK_URL=http://localhost:8000/auth/yandex/callback
+
+# Storefront
+NEXT_PUBLIC_YANDEX_CALLBACK_URL=http://localhost:8000/auth/yandex/callback
+NEXT_PUBLIC_YANDEX_CLIENT_ID=
+NEXT_PUBLIC_YANDEX_CLIENT_SECRET=
